@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3.5cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Ryan} % Your first name
+\familyname{Edelstein} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Resume}
+\address{521 Jefferson St}{Hoboken, NJ 07030}
+\mobile{(858) 342 0276}
+\email{redelste@stevens.edu}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{Aug 2015--Present}{BS Computer Science}{Stevens Institute of Technology}{Hoboken}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{Jun 2017 -- Aug 2017}{Guest Service Assistant}{\textsc{Towne Park LLC}}{San Diego}{}{Provided customer service to guests in order to ensure an excellent stay at the resort. Maintained proper protocol to maintain proper handling of vehicles, and to direct guests effectively upon arrival. \newline{}}
+
+\cventry{May 2017}{BRI Academics}{\textsc{Global Innovation \& Entrepreneurship}}{}{}{
+{\begin{itemize}
+  \item Modeled, documented, and presented a startup pitch to venture capitalists in Tel Aviv, Israel
+  \item Created accurate business model predictions to accurately pitch funding requirements to a board of venture capitalists.
+\end{itemize}}
+}
+
+\cventry{2012--2015}{Coach}{\textsc{Team Touche Fencing Center}}{San Diego}{}{Provided a professional and friendly environment for students varrying on a wide range of age. Taught classes to people of all ages, and improved their overall skill elvel as athtletes. Maintained an interactive and entertaining environment for both students and parents.
+}
+
+
+
+%------------------------------------------------
+
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2016}{Stevens Varsity Fencing Team, Most Valuable Player}
+\cvitem{F2016, S2017}{Deans List}
+\cvitem{2015--Present}{Edwin A. Stevens Merit Scholarship}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\cvitem{TheAlphabet}{Model online shop that utilizes bootstrap modules to create a seamless interface.}
+\cvitem{WebScraping}{Scripts to strip links from the BBC and other news sites and encoded the information into a JSON file for further processing and sentiment analysis.}
+\cvitem{Pong}{A Javascript implementation of the classic Pong game.}
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitemwithcomment{Languages}{Java, Python, SQL, HTML/CSS, JavaScript, Markdown, C++}{}
+\cvitemwithcomment{Technologies}{git, bash, unix, \LaTeX, eclipse}{}
+
+
+
+\end{document}
